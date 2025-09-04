@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Portfolio of Rayana Barnes, SEO and content writing specialist." />
+  <title>Rayana Barnes | SEO Content Writer</title>
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="script.js"></script>
+  <link rel="icon" type="image/x-icon" href="img/rbwlogo.png">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Playfair+Display:wght@600&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+
+</head>
+
+<body>
+  <header class="site-header">
+    <nav class="nav-container">
+      <h1 class="logo">
+        <a href="/">
+          <img src="img/rbwlogo.png" alt="Rayana Barnes logo" class="logo-img" />
+          <span class="visually-hidden">Rayana Barnes</span>
+        </a>
+      </h1>
+
+      <button class="hamburger" aria-label="Toggle navigation">
+        <span class="bar top"></span>
+        <span class="bar middle"></span>
+        <span class="bar bottom"></span>
+
+      </button>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+
+
+  </header>
+
+  <section class="hero">
+    <div class="hero-content">
+      <h2>SEO-Driven Content That Converts</h2>
+      <p>I'm Rayana, a Pacific Northwest-based content writer helping businesses grow through engaging, optimized content.</p>
+      <a href="#portfolio" class="btn-primary">View My Work</a>
+    </div>
+  </section>
+
+  <section id="about" class="about" data-aos="fade-up">
+    <h2>About Me</h2>
+    <p>I specialize in SEO, blog strategy, and creative copywriting. With a background in B2B and B2C, I craft content that ranks and resonates.</p>
+  </section>
+
+  <section id="portfolio" class="portfolio" data-aos="fade-up"></section>
+  <h2>My Work</h2>
+
+  <div class="project-grid">
+    <!-- JS will inject project cards here -->
+  </div>
+  </section>
+
+  <section id="contact" class="contact" data-aos="fade-up">
+    <h2>Contact Me</h2>
+    <p>Let’s work together. Reach out via <a href="mailto:ray@rayanabarneswrites.com">email</a> or connect on <a href="https://www.linkedin.com/in/rayanabarneswrites">LinkedIn</a>.</p>
+  </section>
+
+  <footer class="site-footer">
+    <p>&copy; 2025 Rayana Barnes. All rights reserved.</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      duration: 800,
+      easing: 'ease-in-out',
+      once: true
+    });
+  </script>
+
+  <button id="scrollToTop" aria-label="Scroll to top">↑</button>
+
+
+</body>
+
+</html>
