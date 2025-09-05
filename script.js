@@ -1,15 +1,15 @@
 // Full project injection with all categories and filter buttons
 const projects = [
     // B2C Medical
-    { title: "What’s Included on a Nursing Report Sheet?", category: "B2C Medical", summary: "", link: "https://rayanabarneswrites.com/whats-included-on-a-nursing-report-sheet/" },
-    { title: "How to Create a Basic Nursing Concept Map", category: "B2C Medical", summary: "", link: "https://rayanabarneswrites.com/how-to-create-a-basic-nursing-concept-map/" },
-    { title: "Where to Find Pulse Points on Your Patients", category: "B2C Medical", summary: "", link: "https://rayanabarneswrites.com/where-to-find-pulse-points-on-your-patients/" },
-    { title: "Nursing Care Plan for Coronary Artery Disease (CAD)", category: "B2C Medical", summary: "", link: "https://rayanabarneswrites.com/nursing-care-plan-for-coronary-artery-disease-cad/" },
-    { title: "An NCLEX Cram Sheet to Help You Pass the Exam", category: "B2C Medical", summary: "", link: "https://rayanabarneswrites.com/nclex-cram-sheet/" },
-    { title: "Travel Nurses Get the Best Salaries in These U.S. States", category: "B2C Medical", summary: "", link: "https://rayanabarneswrites.com/travel-nurses-get-the-best-salaries-in-these-us-states/" },
-    { title: "19 NCLEX Tips to Help Ace The Exam (and Avoid Retaking It)", category: "B2C Medical", summary: "", link: "https://rayanabarneswrites.com/19-nclex-tips-to-help-ace-the-exam/" },
-    { title: "What to Do If You Fail the NCLEX and Signs to Look Out For", category: "B2C Medical", summary: "", link: "https://rayanabarneswrites.com/what-to-do-if-you-fail-the-nclex/" },
-    { title: "Nursing Care Plan for COPD", category: "B2C Medical", summary: "", link: "https://rayanabarneswrites.com/nursing-care-plan-for-copd/" },
+    { title: "What’s Included on a Nursing Report Sheet?", category: "B2C Medical", summary: "", link: "https://simplenursing.com/whats-included-on-a-nursing-report-sheet/" },
+    { title: "How to Create a Basic Nursing Concept Map", category: "B2C Medical", summary: "", link: "https://simplenursing.com/how-to-create-a-basic-nursing-concept-map/" },
+    { title: "Where to Find Pulse Points on Your Patients", category: "B2C Medical", summary: "", link: "https://simplenursing.com/where-to-find-pulse-points-on-your-patients/" },
+    { title: "Nursing Care Plan for Coronary Artery Disease (CAD)", category: "B2C Medical", summary: "", link: "https://simplenursing.com/nursing-care-plan-for-coronary-artery-disease-cad/" },
+    { title: "An NCLEX Cram Sheet to Help You Pass the Exam", category: "B2C Medical", summary: "", link: "https://simplenursing.com/nclex-cram-sheet/" },
+    { title: "Travel Nurses Get the Best Salaries in These U.S. States", category: "B2C Medical", summary: "", link: "https://simplenursing.com/travel-nurses-get-the-best-salaries-in-these-us-states/" },
+    { title: "19 NCLEX Tips to Help Ace The Exam (and Avoid Retaking It)", category: "B2C Medical", summary: "", link: "https://simplenursing.com/19-nclex-tips-to-help-ace-the-exam/" },
+    { title: "What to Do If You Fail the NCLEX and Signs to Look Out For", category: "B2C Medical", summary: "", link: "https://simplenursing.com/what-to-do-if-you-fail-the-nclex/" },
+    { title: "Nursing Care Plan for COPD", category: "B2C Medical", summary: "", link: "https://simplenursing.com/nursing-care-plan-for-copd/" },
 
     // B2B Fintech
     { title: "How CPA Firms Can Navigate Remote Staffing Challenges", category: "B2B Fintech", summary: "", link: "https://njcpa.org/stayinformed/news/njcpamag/issues/summer-2022" },
