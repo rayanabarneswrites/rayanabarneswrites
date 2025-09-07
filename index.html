@@ -11,7 +11,9 @@
   <link rel="icon" type="image/x-icon" href="img/rbwlogo.png">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Playfair+Display:wght@600&display=swap" rel="stylesheet">
   <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
-
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400;1,700&family=Playwrite+IN:wght@100..400&family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -31,9 +33,10 @@
 
       </button>
       <ul class="nav-links">
-        <li><a href="#about">About</a></li>
-        <li><a href="#portfolio">Portfolio</a></li>
-        <li><a href="#contact">Contact</a></li>
+        <li><a href="https://rayanabarneswrites.com/#about">About</a></li>
+        <li><a href="https://rayanabarneswrites.com/my-work.html">My Work</a></li>
+        <li><a href="https://rayanabarneswrites.com/services.html" class="active">Services</a></li>
+        <li><a href="https://rayanabarneswrites.com/#contact">Contact</a></li>
       </ul>
     </nav>
 
@@ -41,10 +44,49 @@
   </header>
 
   <section class="hero">
-    <div class="hero-content">
-      <h2>SEO-Driven Content That Converts</h2>
-      <p>I'm Rayana, a Pacific Northwest-based content writer helping businesses grow through engaging, optimized content.</p>
-      <a href="#portfolio" class="btn-primary">View My Work</a>
+    <div class="hero-grid">
+      <div class="hero-text">
+        <h1>Writer + Content Specialist</h1>
+        <p>I support marketing teams and small businesses with writing and editorial services.</p>
+        <a href="#contact" class="hero-btn">Work With Me</a>
+      </div>
+      <div class="hero-image">
+        <img src="img/mt-hood.jpg" alt="Mount Hood landscape" />
+      </div>
+    </div>
+  </section>
+
+  <section id="services" class="how-i-can-help" data-aos="fade-up">
+    <div class="services-two-col">
+      <div class="services-image-col">
+        <img src="img/pnw.jpg" alt="Abstract pastel background" class="services-bg-img" />
+      </div>
+      <div class="services-content-col">
+        <h2>My Services</h2>
+        <div class="services-grid">
+          <div class="service-card">
+            <div class="service-icon service-badge">
+              <span class="icon-magnifier"></span>
+            </div>
+            <h3>SEO Optimization</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          </div>
+          <div class="service-card">
+            <div class="service-icon service-badge">
+              <span class="icon-pencil"></span>
+            </div>
+            <h3>Content Writing</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          </div>
+          <div class="service-card">
+            <div class="service-icon service-badge">
+              <span class="icon-document"></span>
+            </div>
+            <h3>Blog Strategy</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          </div>
+        </div>
+      </div>
     </div>
   </section>
 
@@ -53,19 +95,81 @@
     <p>I specialize in SEO, blog strategy, and creative copywriting. With a background in B2B and B2C, I craft content that ranks and resonates.</p>
   </section>
 
-  <section id="portfolio" class="portfolio" data-aos="fade-up"></section>
-  <h2>My Work</h2>
-
-  <div class="project-grid">
-    <!-- JS will inject project cards here -->
-  </div>
+  <section class="seo-features">
+    <div class="seo-features-grid">
+      <div class="seo-feature-card">
+        <div class="seo-feature-icon seo-feature-badge">
+          <span class="icon-pointer"></span>
+        </div>
+        <h3>Lorem ipsum dolor</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      </div>
+      <div class="seo-feature-card">
+        <div class="seo-feature-icon seo-feature-badge">
+          <span class="icon-heart"></span>
+        </div>
+        <h3>Lorem ipsum dolor</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      </div>
+      <div class="seo-feature-card">
+        <div class="seo-feature-icon seo-feature-badge">
+          <span class="icon-group"></span>
+        </div>
+        <h3>Lorem ipsum dolor</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      </div>
+    </div>
   </section>
 
+  <section id="faq" class="faq-section">
+    <h2>Frequently Asked Questions</h2>
+    <div class="faq-list">
+      <div class="faq-item">
+        <button class="faq-question" aria-expanded="false">
+          <span class="faq-icon faq-plus">+</span>
+          <span class="faq-icon faq-minus" style="display:none">−</span>
+          What services do you offer?
+        </button>
+        <div class="faq-answer">I offer SEO content writing, blog strategy, and creative copywriting for B2B and B2C brands.</div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-question" aria-expanded="false">
+          <span class="faq-icon faq-plus">+</span>
+          <span class="faq-icon faq-minus" style="display:none">−</span>
+          How do you approach SEO writing?
+        </button>
+        <div class="faq-answer">I use keyword research, competitor analysis, and engaging storytelling to create content that ranks and converts.</div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-question" aria-expanded="false">
+          <span class="faq-icon faq-plus">+</span>
+          <span class="faq-icon faq-minus" style="display:none">−</span>
+          Can you work with international clients?
+        </button>
+        <div class="faq-answer">Yes, I have experience working with clients globally and can adapt content for different markets.</div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-question" aria-expanded="false">
+          <span class="faq-icon faq-plus">+</span>
+          <span class="faq-icon faq-minus" style="display:none">−</span>
+          What is your turnaround time?
+        </button>
+        <div class="faq-answer">Turnaround depends on project scope, but most articles are delivered within 3-5 business days.</div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-question" aria-expanded="false">
+          <span class="faq-icon faq-plus">+</span>
+          <span class="faq-icon faq-minus" style="display:none">−</span>
+          How do I get started?
+        </button>
+        <div class="faq-answer">Contact me via email or LinkedIn to discuss your project and receive a custom quote.</div>
+      </div>
+    </div>
+  </section>
   <section id="contact" class="contact" data-aos="fade-up">
     <h2>Contact Me</h2>
     <p>Let’s work together. Reach out <a href="mailto:ray@rayanabarneswrites.com">email</a> or connect on <a href="https://www.linkedin.com/in/rayanabarneswrites">LinkedIn</a>.</p>
   </section>
-
   <footer class="site-footer">
     <p>&copy; 2025 Rayana Barnes. All rights reserved.</p>
   </footer>
@@ -80,7 +184,6 @@
   </script>
 
   <button id="scrollToTop" aria-label="Scroll to top">↑</button>
-
 
 </body>
 

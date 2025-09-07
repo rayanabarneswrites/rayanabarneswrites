@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Portfolio works of Rayana Barnes, content writing specialist." />
+  <title>My Work | Rayana Barnes</title>
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="my-work.js"></script>
+  <link rel="icon" type="image/x-icon" href="img/rbwlogo.png">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Playfair+Display:wght@600&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400;1,700&family=Playwrite+IN:wght@100..400&family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <header class="site-header">
+    <nav class="nav-container">
+      <h1 class="logo">
+        <a href="/">
+          <img src="img/rbwlogo.png" alt="Rayana Barnes logo" class="logo-img" />
+          <span class="visually-hidden">Rayana Barnes</span>
+        </a>
+      </h1>
+      <button class="hamburger" aria-label="Toggle navigation">
+        <span class="bar top"></span>
+        <span class="bar middle"></span>
+        <span class="bar bottom"></span>
+      </button>
+      <ul class="nav-links">
+        <li><a href="https://rayanabarneswrites.com/#about">About</a></li>
+        <li><a href="https://rayanabarneswrites.com/my-work.html" class="active">My Work</a></li>
+        <li><a href="https://rayanabarneswrites.com/services.html">Services</a></li>
+        <li><a href="https://rayanabarneswrites.com/#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="portfolio page-section" data-aos="fade-up">
+    <h1>My Work</h1>
+    <div class="project-grid">
+      <!-- JS will inject project cards here -->
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <p>&copy; 2025 Rayana Barnes. All rights reserved.</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      duration: 800,
+      easing: 'ease-in-out',
+      once: true
+    });
+  </script>
+
+  <button id="scrollToTop" aria-label="Scroll to top">↑</button>
+</body>
+
+</html>
