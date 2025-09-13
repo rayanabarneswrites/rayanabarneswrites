@@ -133,7 +133,7 @@
   min-height: 90vh;
   background: var(--background-color);
   padding: 0;
-  margin-top: 70px;
+  margin-top: 35px;
   display: flex;
   align-items: center;
 }
