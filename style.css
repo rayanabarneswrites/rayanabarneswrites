@@ -992,7 +992,7 @@ margin-bottom: 25px;
 /* Fix My Services alignment on index.html */
 .services-grid {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  /* grid-template-columns: 1fr 1fr; */
   gap: 3rem 2rem;
   align-items: start;
 }
