@@ -940,6 +940,102 @@ margin-bottom: 25px;
   }
 }
 
+/* My Services section: each card in its own row, evenly spaced */
+.services-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 3rem;
+}
+.service-card {
+  display: grid;
+  grid-template-columns: 80px 1fr 2fr;
+  align-items: center;
+  gap: 2rem;
+  background: none;
+  border-radius: 0;
+  padding: 0;
+  box-shadow: none;
+}
+.service-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.service-card h3 {
+  font-family: var(--font-heading);
+  font-size: 2rem;
+  color: var(--text-color);
+  margin-bottom: 0.7rem;
+  font-weight: bold;
+  grid-column: 2 / 3;
+}
+.service-card p {
+  font-size: 1.2rem;
+  color: var(--text-color);
+  margin: 0;
+  grid-column: 3 / 4;
+  align-self: start;
+}
+@media (max-width: 900px) {
+  .services-grid {
+    gap: 2rem;
+  }
+  .service-card {
+    grid-template-columns: 60px 1fr;
+    gap: 1.2rem;
+  }
+  .service-card p {
+    grid-column: 2 / 3;
+  }
+}
+
+/* Fix My Services alignment on index.html */
+.services-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem 2rem;
+  align-items: start;
+}
+@media (max-width: 900px) {
+  .services-grid {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+}
+.service-card {
+  display: grid;
+  grid-template-columns: 80px 1fr 1.5fr;
+  align-items: center;
+  gap: 1.5rem;
+  background: none;
+  border-radius: 0;
+  padding: 0;
+  box-shadow: none;
+}
+.service-icon {
+  grid-row: span 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.service-card h3 {
+  font-family: var(--font-heading);
+  font-size: 2rem;
+  color: var(--text-color);
+  margin-bottom: 0.7rem;
+  font-weight: bold;
+  grid-column: 2 / 3;
+  grid-row: 1 / 2;
+}
+.service-card p {
+  font-size: 1.2rem;
+  color: var(--text-color);
+  margin: 0;
+  grid-column: 3 / 4;
+  grid-row: 1 / 2;
+  align-self: start;
+}
+
 /* Fix mobile sidescroll and enforce viewport constraints */
 html, body {
   overflow-x: hidden;
@@ -1040,6 +1136,14 @@ html, body {
     text-align: center;
     width: 100%;
   }
+}
+
+.section-separator {
+  border: none;
+  border-top: 2px solid var(--accent-color);
+  /* margin: 0 0 3rem 0; */
+  width: 100%;
+  opacity: 1;
 }
 
 

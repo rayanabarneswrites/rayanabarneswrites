@@ -8,6 +8,7 @@
   --font-base: 'Atkinson Hyperlegible', sans-serif;
   --font-heading: 'Atkinson Hyperlegible', serif;
 }
+
 body {
   font-family: var(--font-base);
   background-color: var(--background-color);
@@ -19,6 +20,31 @@ body {
   margin: 0;
   overflow-x: hidden;
 }
+
+.hero-btn {
+  display: block;
+  margin: 2rem auto;
+  background: #f5e2db;
+  color: #111;
+  padding: 1.5rem 3.5rem;
+  border-radius: 999px;
+  text-decoration: none;
+  font-size: 1.5rem;
+  font-family: var(--font-base);
+  font-weight: 400;
+  box-shadow: none;
+  border: none;
+  text-align: center;
+  transition: none;
+}
+.hero-btn:hover {
+  background: #f5e2db;
+  color: #111;
+  transform: none;
+  box-shadow: none;
+}
+
+
 .site-header {
   position: fixed;
   top: 0;
@@ -199,7 +225,7 @@ main, .how-i-can-help {
   flex-direction: column;
   align-items: flex-end;
   justify-content: start;
-  background: linear-gradient(135deg, #E4FDE1 60%, #FF91AF 100%);
+  background-color: var(--background-color);
   padding: 4rem 3rem 4rem 5rem;
   box-shadow: 0 8px 32px rgba(79,93,47,0.08);
 }
@@ -217,7 +243,7 @@ main, .how-i-can-help {
 }
 .services-content-col {
   flex: 2;
-  background: linear-gradient(135deg, #FF91AF 60%, #E4FDE1 100%);
+  background-color: var(--background-color);
   padding: 4rem 4rem 5rem 3rem;
   display: flex;
   flex-direction: column;
