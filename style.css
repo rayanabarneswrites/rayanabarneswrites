@@ -1,10 +1,10 @@
 :root {
   --primary-color: rgba(255, 145, 175, 0.33);
   --secondary-color:  #7D7E75;
-  --accent-color:  #4F5D2F;
-  --background-color: #E4FDE1;
+  --accent-color:  #1C2419;
+  --background-color: #F5FFEF;
   --text-color: #000000;
-  --light-text: #444;
+  --light-text:  #FFFFFF;
   --link-color: #0073aa;
   --font-base: 'Atkinson Hyperlegible', sans-serif;
   --font-heading: 'Atkinson Hyperlegible', serif;
