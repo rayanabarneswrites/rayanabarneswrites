@@ -4,193 +4,195 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Portfolio of Rayana Barnes, SEO and content writing specialist." />
-  <title>Rayana Barnes | SEO Content Writer</title>
-  <link rel="stylesheet" href="style.css" />
-  <script defer src="script.js"></script>
-  <link rel="icon" type="image/x-icon" href="img/Rayana-Portfolio-logo.png">
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Playfair+Display:wght@600&display=swap" rel="stylesheet">
-  <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400;1,700&family=Playwrite+IN:wght@100..400&family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <meta name="description" content="Rayana Barnes is an SEO strategist and content writer with 7+ years of experience creating search-driven content for B2B SaaS, FinTech, and EdTech brands." />
+  <title>Rayana Barnes | SEO Strategist &amp; Content Writer</title>
+  <link rel="canonical" href="https://rayanabarneswrites.com/" />
+  <link rel="stylesheet" href="/style.css" />
+  <script defer src="/script.js"></script>
+  <link rel="icon" type="image/png" href="/img/Rayana-Portfolio-logo.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Playfair+Display:wght@600&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400;1,700&family=Playwrite+IN:wght@100..400&family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet" />
 </head>
 
-<body>
+<body class="homepage">
   <header class="site-header">
-    <nav class="nav-container">
-      <h1 class="logo">
-        <a href="/">
-          <img src="img/Rayana-Portfolio-logo.png" alt="Rayana Barnes logo" class="logo-img" />
+    <nav class="nav-container" aria-label="Main navigation">
+      <div class="logo">
+        <a href="/" aria-label="Rayana Barnes homepage">
+          <img src="/img/Rayana-Portfolio-logo.png" alt="Rayana Barnes logo" class="logo-img" />
           <span class="visually-hidden">Rayana Barnes</span>
         </a>
-      </h1>
-
-      <button class="hamburger" aria-label="Toggle navigation">
+      </div>
+      <button class="hamburger" type="button" aria-label="Toggle navigation" aria-expanded="false">
         <span class="bar top"></span>
         <span class="bar middle"></span>
         <span class="bar bottom"></span>
-
       </button>
       <ul class="nav-links">
-        <li><a href="https://rayanabarneswrites.com/#about">About</a></li>
-        <li><a href="https://rayanabarneswrites.com/my-work/">My Work</a></li>
-        <li><a href="https://rayanabarneswrites.com/#contact">Contact</a></li>
+        <li><a href="/about/">About</a></li>
+        <li><a href="/my-work/">My Work</a></li>
+        <li><a href="/#contact">Contact</a></li>
       </ul>
     </nav>
-
-
   </header>
 
-  <section class="hero">
-    <div class="hero-grid">
-      <div class="hero-text">
-        <h1>Writing + Content Management</h1>
-        <p>I'm a writer and content professional with SEO experience.</p>
-        <a href="#contact" class="hero-btn">Work With Me</a>
-      </div>
-      <div class="hero-image">
-        <img src="img/mt-hood.jpg" alt="Mount Hood landscape" />
-      </div>
-    </div>
-  </section>
-  <hr class="section-separator" />
-  <section id="services" class="how-i-can-help" data-aos="fade-up">
-    <div class="services-two-col">
-      <div class="services-image-col">
-        <img src="img/pnw.jpg" alt="Abstract pastel background" class="services-bg-img" />
-      </div>
-      <div class="services-content-col">
-        <h2>My Services</h2>
-        <div class="services-grid">
-          <div class="service-card">
-            <div class="service-icon service-badge">
-              <span class="icon-magnifier"></span>
-            </div>
-            <h3>SEO Optimization</h3>
-            <p>Keyword research, Content Audit, SEO Reporting</p>
+  <main>
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-grid">
+        <div class="hero-text">
+          <h1 id="hero-title">Words That Work Hard (So You Don't Have to Wonder If Your Content Is)</h1>
+          <p class="hero-eyebrow">SEO Strategist. Content Writer. Your Brand's New Best Friend.</p>
+          <p>I turn "meh" web copy into scroll-stopping, search-climbing, lead-generating content. Seven years of making Google and humans equally happy. Because why choose?</p>
+          <div class="hero-actions">
+            <a href="/my-work/" class="hero-btn">See My Work</a>
+            <a href="/#contact" class="hero-btn hero-btn-secondary">Let's Chat</a>
           </div>
+        </div>
+      </div>
+    </section>
+    <hr class="section-separator" />
 
-          <!-- Writing card is now in its own row directly under SEO Optimization -->
-          <div class="service-card">
-            <div class="service-icon service-badge">
-              <span class="icon-pencil"></span>
-            </div>
-            <h3>Writing</h3>
-            <p>Copywriting and Content Writing</p>
-          </div>
+    <hr class="section-separator" />
 
-          <div class="service-card">
-            <div class="service-icon service-badge">
-              <span class="icon-document"></span>
+    <section class="stats-section" data-aos="fade-up" aria-labelledby="stats-title">
+      <div class="content-container">
+        <h2 id="stats-title">By the Numbers (Because Data Is My Love Language)</h2>
+        <div class="stats-grid">
+          <div class="stat-card"><strong>7+</strong><span>Years of SEO &amp; Content Strategy</span></div>
+          <div class="stat-card"><strong>100+</strong><span>Client Brands Served</span></div>
+          <div class="stat-card"><strong>30+</strong><span>Pages Ranked #1 on Google</span></div>
+          <div class="stat-card"><strong>$20K+</strong><span>Revenue Generated from Content</span></div>
+          <div class="stat-card"><strong>20%</strong><span>Conversion Rate Increases Achieved</span></div>
+        </div>
+      </div>
+    </section>
+    <hr class="section-separator" />
+
+    <section id="services" class="how-i-can-help" data-aos="fade-up" aria-labelledby="services-title">
+      <div class="services-two-col">
+        <div class="services-image-col">
+          <img src="/img/pnw.jpg" alt="Pacific Northwest landscape" class="services-bg-img" loading="lazy" />
+        </div>
+        <div class="services-content-col">
+          <h2 id="services-title">What I Bring to the Table</h2>
+          <div class="services-grid">
+            <div class="service-card">
+              <div class="service-icon service-badge" aria-hidden="true"><span class="icon-magnifier"></span></div>
+              <h3>🎯 SEO-Driven Web Copy</h3>
+              <p>Pages that climb SERPs and keep visitors hooked.</p>
             </div>
-            <h3>Content Strategy</h3>
-            <p>Content management, planning, and more</p>
-            <h3>Content Strategy</h3>
-            <p>Content management, planning, and more</p>
+            <div class="service-card">
+              <div class="service-icon service-badge" aria-hidden="true"><span class="icon-pencil"></span></div>
+              <h3>📝 Blog Content &amp; Thought Leadership</h3>
+              <p>Long-form pieces that establish authority (and actually get read).</p>
+            </div>
+            <div class="service-card">
+              <div class="service-icon service-badge" aria-hidden="true"><span class="icon-heart"></span></div>
+              <h3>🔄 Content Refreshes &amp; Optimization</h3>
+              <p>Breathing new life into underperforming pages.</p>
+            </div>
+            <div class="service-card">
+              <div class="service-icon service-badge" aria-hidden="true"><span class="icon-document"></span></div>
+              <h3>📊 Content Strategy &amp; Planning</h3>
+              <p>Data-backed roadmaps that make sense for your business.</p>
+            </div>
           </div>
+          <p><a href="/my-work/" class="hero-btn">Explore My Work →</a></p>
         </div>
       </div>
-    </div>
-  </section>
-  <hr class="section-separator" />
-  <section id="about" class="about" data-aos="fade-up">
-    <h2>About Me</h2>
-    <p>I specialize in SEO, blog strategy, and creative copywriting. With a background in B2B and B2C, I craft content that ranks and resonates.</p>
-  </section>
-  <hr class="section-separator" />
-  <section class="seo-features">
-    <div class="seo-features-grid">
-      <div class="seo-feature-card">
-        <div class="seo-feature-icon seo-feature-badge">
-          <span class="icon-pointer"></span>
+    </section>
+    <hr class="section-separator" />
+
+    <section id="featured-work" class="featured-work" data-aos="fade-up" aria-labelledby="featured-title">
+      <div class="content-container">
+        <h2 id="featured-title">Featured Work</h2>
+        <div class="featured-grid">
+          <article class="featured-card">
+            <h3>🚀 Website Launches &amp; Rebrands</h3>
+            <p class="featured-lead">New sites that make a splash from day one.</p>
+            <p>From FinTech product launches to full website rebrands, I've written original web copy for 10+ new site launches, collaborating with SEO, design, and dev teams so every page is optimized before it even goes live.</p>
+            <p><strong>Key project:</strong> Led content for a Buy Now, Pay Later (BNPL) product launch, creating digital and print assets that drove brand awareness and organic traffic.</p>
+          </article>
+          <article class="featured-card">
+            <h3>📈 Content Optimization &amp; Refreshes</h3>
+            <p class="featured-lead">Turning "page 5" into "position 1."</p>
+            <p>I optimize 5+ web pages weekly, using data-driven insights to boost traffic, clicks, and conversions. Because sometimes your best content just needs a little TLC (and better keywords).</p>
+            <p><strong>Results:</strong> Achieved 30+ assets ranking #1 in SERPs, decreased bounce rates by up to 10%, and generated $20K+ in revenue through optimized content.</p>
+          </article>
+          <article class="featured-card">
+            <h3>✍️ Long-Form Content &amp; Thought Leadership</h3>
+            <p class="featured-lead">Blogs, guides, and white papers that build authority.</p>
+            <p>From medically-detailed nursing exam reviews (yes, really) to SaaS thought leadership pieces, I write long-form content that positions brands as the go-to experts in their space.</p>
+            <p><strong>Output:</strong> 4+ original blog pieces monthly, plus case studies, eBooks, and guides, all SEO-optimized and audience-focused.</p>
+          </article>
+          <article class="featured-card">
+            <h3>🔍 SEO &amp; Content Strategy</h3>
+            <p class="featured-lead">Keyword research that actually leads somewhere.</p>
+            <p>I develop comprehensive content strategies using KOB (Keyword Opposition to Benefit) analysis, competitive research, and a deep understanding of search intent. The goal? Content that ranks and resonates.</p>
+            <p><strong>Impact:</strong> Drove up to 20% increases in conversion rates through strategic SEO implementation.</p>
+          </article>
         </div>
-        <h3>Website Launches</h3>
-        <p>Ready to take your site off the ground? Get started with effective content.</p>
       </div>
-      <div class="seo-feature-card">
-        <div class="seo-feature-icon seo-feature-badge">
-          <span class="icon-heart"></span>
+    </section>
+    <hr class="section-separator" />
+
+    <section class="industries-section" data-aos="fade-up" aria-labelledby="industries-title">
+      <div class="content-container">
+        <h2 id="industries-title">Industries I've Written For</h2>
+        <ul class="industries-list">
+          <li><strong>B2B SaaS</strong>Complex products, simplified</li>
+          <li><strong>B2B FinTech</strong>Making finance feel human</li>
+          <li><strong>B2C EdTech</strong>Educational content that engages</li>
+          <li><strong>Multi-Industry Agencies</strong>100+ brands and counting</li>
+        </ul>
+      </div>
+    </section>
+    <hr class="section-separator" />
+
+    <section class="contact-cta" aria-labelledby="cta-title">
+      <div class="content-container">
+        <h2 id="cta-title">Ready to Stop Blending In?</h2>
+        <p>Your content should sound like you, just more findable. Let's make that happen.</p>
+        <a href="/#contact" class="hero-btn">Get in Touch</a>
+      </div>
+    </section>
+    <hr class="section-separator" />
+
+    <section id="contact" class="contact contact-modern" data-aos="fade-up" aria-labelledby="contact-title">
+      <div class="contact-inner">
+        <p class="contact-eyebrow">LET'S WORK TOGETHER</p>
+        <h2 id="contact-title">Let's make something great.</h2>
+        <p class="contact-description">Have a project in mind? I'd love to hear about it. Reach out by email or connect with me on LinkedIn.</p>
+        <div class="contact-actions">
+          <a class="contact-button contact-button-primary" href="mailto:ray@rayanabarneswrites.com" aria-label="Email Rayana Barnes">
+            <span aria-hidden="true">✉</span> Email Me <span aria-hidden="true">↗</span>
+          </a>
+          <a class="contact-button contact-button-secondary" href="https://www.linkedin.com/in/rayanabarneswrites" target="_blank" rel="noopener noreferrer" aria-label="Connect with Rayana Barnes on LinkedIn (opens in new tab)">
+            Connect on LinkedIn <span aria-hidden="true">↗</span>
+          </a>
+          <a class="contact-button contact-button-primary" href="/my-work/" target="_blank" rel="noopener noreferrer" aria-label="Connect with Rayana Barnes on LinkedIn (opens in new tab)">
+            View My Work <span aria-hidden="true">↗</span>
+          </a>
         </div>
-        <h3>Content Refreshing</h3>
-        <p>Old, outdated pages could be dragging your site down. Refreshes boost your site performance.</p>
       </div>
-      <div class="seo-feature-card">
-        <div class="seo-feature-icon seo-feature-badge">
-          <span class="icon-group"></span>
-        </div>
-        <h3>Original Writing</h3>
-        <p>Bring your voice and mission into the spotlight. Don't let AI drown out your product or service.</p>
-      </div>
-    </div>
-  </section>
-  <hr class="section-separator" />
-  <section id="faq" class="faq-section">
-    <h2>Frequently Asked Questions</h2>
-    <div class="faq-list">
-      <div class="faq-item">
-        <button class="faq-question" aria-expanded="false">
-          <span class="faq-icon faq-plus">+</span>
-          <span class="faq-icon faq-minus" style="display:none">−</span>
-          What services do you offer?
-        </button>
-        <div class="faq-answer">I offer SEO content writing, blog strategy, and creative copywriting for B2B and B2C brands.</div>
-      </div>
-      <div class="faq-item">
-        <button class="faq-question" aria-expanded="false">
-          <span class="faq-icon faq-plus">+</span>
-          <span class="faq-icon faq-minus" style="display:none">−</span>
-          How do you approach SEO writing?
-        </button>
-        <div class="faq-answer">I use keyword research, competitor analysis, and engaging storytelling to create content that ranks and converts.</div>
-      </div>
-      <div class="faq-item">
-        <button class="faq-question" aria-expanded="false">
-          <span class="faq-icon faq-plus">+</span>
-          <span class="faq-icon faq-minus" style="display:none">−</span>
-          Can you work with international clients?
-        </button>
-        <div class="faq-answer">Yes, I have experience working with clients globally and can adapt content for different markets.</div>
-      </div>
-      <div class="faq-item">
-        <button class="faq-question" aria-expanded="false">
-          <span class="faq-icon faq-plus">+</span>
-          <span class="faq-icon faq-minus" style="display:none">−</span>
-          What is your turnaround time?
-        </button>
-        <div class="faq-answer">Turnaround depends on project scope, but most articles are delivered within 3-5 business days.</div>
-      </div>
-      <div class="faq-item">
-        <button class="faq-question" aria-expanded="false">
-          <span class="faq-icon faq-plus">+</span>
-          <span class="faq-icon faq-minus" style="display:none">−</span>
-          How do I get started?
-        </button>
-        <div class="faq-answer">Contact me via email or LinkedIn to discuss your project and receive a custom quote.</div>
-      </div>
-    </div>
-  </section>
-  <hr class="section-separator" />
-  <section id="contact" class="contact" data-aos="fade-up">
-    <h2>Contact Me</h2>
-    <p>Let’s work together. Reach out to me via <a href="mailto:ray@rayanabarneswrites.com">email</a> or connect on <a href="https://www.linkedin.com/in/rayanabarneswrites">LinkedIn</a>.</p>
-  </section>
+    </section>
+  </main>
+
   <hr class="section-separator" />
   <footer class="site-footer">
-    <p>&copy; 2025 Rayana Barnes. All rights reserved.</p>
+    <p>&copy; 2026 Rayana Barnes. All rights reserved.</p>
   </footer>
 
   <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
   <script>
-    AOS.init({
-      duration: 800,
-      easing: 'ease-in-out',
-      once: true
-    });
+    if (typeof AOS !== 'undefined') {
+      AOS.init({ duration: 800, easing: 'ease-in-out', once: true });
+    }
   </script>
-
-  <button id="scrollToTop" aria-label="Scroll to top">↑</button>
-
+  <button id="scrollToTop" type="button" aria-label="Scroll to top">↑</button>
 </body>
 
 </html>
